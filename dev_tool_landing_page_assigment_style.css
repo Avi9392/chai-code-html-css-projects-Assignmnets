@@ -1,0 +1,174 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+}
+
+html{
+        scrollbar-width: none;
+
+}
+
+.logo_header{
+    padding: 0%;
+    margin: 0%;
+    color:white;
+
+}
+
+
+
+.headers{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid black;
+    background-color: black;
+    padding-left:80px;
+    padding-top:1%;
+    
+    
+
+
+    
+    
+}
+
+.nav-links{
+
+    display: flex;
+    gap:20%;
+    margin-top: 0%;
+    /* font-size:18px; */
+
+
+}
+
+
+
+.link-color-nav{
+
+    text-decoration:none;
+        color:white;
+
+}
+
+ul{
+    list-style:none;
+
+}
+
+.header-button{
+
+margin-right:65px;
+margin-left:70px;
+
+
+
+}
+
+.btn-1-header{
+    
+    margin-right:10px;
+    padding:5px 12px;
+    border:1px solid black;
+    border-radius:15px;
+    font-size:18px;
+    
+
+}
+
+#btn{
+ background-color:black;
+ color:white;
+ border-color:rgb(58, 58, 58);
+
+}
+
+
+/* cursor-hero-section */
+
+.hero-img{
+    height:155px;
+}
+
+.cursor-hero-section{
+    display: flex;
+    justify-content:start;
+    gap:3%;
+    position: relative;
+    left:9%;
+    top:15%;
+    width:700px;
+    margin-bottom:18%;
+    color:white;
+}
+
+.cursor-hero-download-button-text{
+    line-height:8px;
+    font-size: x-large;
+}
+
+.Paragraph-cursor-hero-download-button-text{
+
+    margin-bottom:7%;
+
+}
+
+.cursor-hero-download-button{
+    padding:12px 15px;
+    border-radius:20px 20px;
+    font-size:17;
+}
+
+.section-version-downloads{
+   position: relative;
+   width:90%;
+   left:5%;
+   bottom:8%;
+   color:white;
+}
+
+.version-link{
+    padding:2%;
+    border-top: 1px solid rgb(46, 45, 45);
+
+}
+
+
+.version-links{
+
+        padding:2%;
+    border-top: 1px solid rgb(48, 46, 46);
+     border-bottom: 1px solid rgb(54, 54, 54);
+
+    margin-bottom:50px;
+    
+}
+
+
+.footer{
+    background-color: rgb(40, 39, 37);
+    display: flex;
+    justify-content: start;
+    gap:10%;
+    padding:5%;
+        color: azure;
+
+
+} 
+
+.footer-links{
+    color: azure;
+    
+}
+
+
+
+a{
+        color: azure;
+        text-decoration:none;
+        line-height:35px;
+
+}

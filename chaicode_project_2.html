@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mintlify - The Intelligent Documentation Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="nav-left">
+                    <a href="#" class="logo">
+                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="28" height="28" rx="6" fill="#5865F2"/>
+                            <path d="M8 10L14 7L20 10V18L14 21L8 18V10Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14 14L14 21" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M8 10L14 14L20 10" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Mintlify</span>
+                    </a>
+                    <nav class="nav-links">
+                        <div class="nav-item-dropdown">
+                            <a href="#" class="nav-link">Resources</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-grid">
+                                    <div class="dropdown-section">
+                                        <h4>Explore</h4>
+                                        <a href="#">Startups<span>Built for fast-moving teams</span></a>
+                                        <a href="#">Enterprise<span>Scalable for large organizations</span></a>
+                                        <a href="#">Switch<span>Seamless migration tools</span></a>
+                                    </div>
+                                    <div class="dropdown-section">
+                                        <h4>Company</h4>
+                                        <a href="#">Careers<span>Join our growing team</span></a>
+                                        <a href="#">Wall of Love<span>Customer testimonials</span></a>
+                                        <a href="#">Guides<span>Guide to technical writing</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nav-item-dropdown">
+                            <a href="#" class="nav-link">Documentation</a>
+                            <div class="dropdown-content">
+                                <div class="dropdown-grid">
+                                    <div class="dropdown-section">
+                                        <h4>Guides</h4>
+                                        <a href="#">Getting Started<span>Deploy in minutes</span></a>
+                                        <a href="#">Components<span>Customizable components library</span></a>
+                                    </div>
+                                    <div class="dropdown-section">
+                                        <h4>Developers</h4>
+                                        <a href="#">API Reference<span>Build integrations and custom workflows</span></a>
+                                        <a href="#">Changelog<span>Learn what's new</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="nav-link">Customers</a>
+                        <a href="#" class="nav-link">Blog</a>
+                        <a href="#" class="nav-link">Pricing</a>
+                    </nav>
+                </div>
+                <div class="nav-right">
+                    <a href="#" class="btn-secondary">Contact sales</a>
+                    <a href="#" class="btn-primary">Start for free</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">
+                <span class="badge-new">new</span>
+                <span>Self-updating docs with agent suggestions</span>
+            </div>
+            <h1 class="hero-title">The Intelligent Knowledge Platform</h1>
+            <p class="hero-description">Helping teams create and maintain world-class documentation built for both humans and AI</p>
+            <div class="hero-cta">
+                <input type="email" placeholder="Enter your email" class="email-input">
+                <button class="btn-hero">Start now</button>
+            </div>
+            <div class="hero-image">
+                <svg width="1200" height="600" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#5865F2;stop-opacity:0.2" />
+                            <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:0.1" />
+                        </linearGradient>
+                    </defs>
+                    <rect x="100" y="100" width="1000" height="400" rx="12" fill="url(#grad1)" stroke="#5865F2" stroke-width="2"/>
+                    <rect x="150" y="150" width="200" height="300" rx="8" fill="white" opacity="0.9"/>
+                    <rect x="170" y="170" width="160" height="12" rx="4" fill="#E5E7EB"/>
+                    <rect x="170" y="200" width="140" height="8" rx="4" fill="#E5E7EB"/>
+                    <rect x="170" y="220" width="130" height="8" rx="4" fill="#E5E7EB"/>
+                    <rect x="170" y="240" width="150" height="8" rx="4" fill="#E5E7EB"/>
+                    <rect x="170" y="280" width="140" height="8" rx="4" fill="#5865F2"/>
+                    <rect x="170" y="300" width="120" height="8" rx="4" fill="#E5E7EB"/>
+                    <rect x="400" y="150" width="650" height="300" rx="8" fill="white" opacity="0.95"/>
+                    <rect x="430" y="180" width="590" height="40" rx="6" fill="#F9FAFB"/>
+                    <rect x="450" y="195" width="200" height="10" rx="4" fill="#111827"/>
+                    <rect x="430" y="250" width="280" height="180" rx="6" fill="#F9FAFB"/>
+                    <circle cx="570" cy="340" r="40" fill="#5865F2" opacity="0.3"/>
+                    <rect x="740" y="250" width="280" height="180" rx="6" fill="#F9FAFB"/>
+                    <rect x="760" y="270" width="240" height="12" rx="4" fill="#E5E7EB"/>
+                    <rect x="760" y="295" width="200" height="8" rx="4" fill="#E5E7EB"/>
+                    <rect x="760" y="315" width="220" height="8" rx="4" fill="#E5E7EB"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Preview Section -->
+    <section class="docs-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Built for the intelligence age</h2>
+                <p>Integrate AI into every part of your docs lifecycle. Woven into how your knowledge is written, maintained, and understood by both users and LLMs.</p>
+            </div>
+            <div class="docs-layout">
+                <aside class="docs-sidebar">
+                    <div class="sidebar-header">Documentation</div>
+                    <nav class="sidebar-nav">
+                        <a href="#" class="sidebar-link active">
+                            <span class="icon">📚</span>
+                            <span>Getting Started</span>
+                        </a>
+                        <a href="#" class="sidebar-link">
+                            <span class="icon">⚙️</span>
+                            <span>Configuration</span>
+                        </a>
+                        <a href="#" class="sidebar-link">
+                            <span class="icon">🎨</span>
+                            <span>Components</span>
+                        </a>
+                        <a href="#" class="sidebar-link">
+                            <span class="icon">🔌</span>
+                            <span>API Reference</span>
+                        </a>
+                        <a href="#" class="sidebar-link">
+                            <span class="icon">🚀</span>
+                            <span>Deployment</span>
+                        </a>
+                    </nav>
+                </aside>
+                <div class="docs-main">
+                    <div class="feature-card">
+                        <div class="feature-badge">LLMs.txt & MCP</div>
+                        <h3>Built for both people and AI</h3>
+                        <p>Ensure your product shows up in the AI workflows users already rely on. We support llms.txt, MCP, and whatever comes next.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-badge">agent</div>
+                        <h3>Self-updating knowledge management</h3>
+                        <p>Draft, edit, and maintain content with a context-aware agent. Move faster and more consistently without the documentation debt.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-badge">Assistant</div>
+                        <h3>Intelligent assistance for your users</h3>
+                        <p>Turn every documentation visit into a guided conversation. Your AI assistant understands context and delivers what users need.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By / Logos -->
+    <section class="trusted-by">
+        <div class="container">
+            <div class="logos-grid">
+                <div class="logo-item">
+                    <svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <text x="10" y="28" font-family="Inter" font-size="20" font-weight="700" fill="#111827">Anthropic</text>
+                    </svg>
+                </div>
+                <div class="logo-item">
+                    <svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <text x="10" y="28" font-family="Inter" font-size="20" font-weight="700" fill="#111827">Coinbase</text>
+                    </svg>
+                </div>
+                <div class="logo-item">
+                    <svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <text x="10" y="28" font-family="Inter" font-size="20" font-weight="700" fill="#111827">HubSpot</text>
+                    </svg>
+                </div>
+                <div class="logo-item">
+                    <svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <text x="10" y="28" font-family="Inter" font-size="20" font-weight="700" fill="#111827">Zapier</text>
+                    </svg>
+                </div>
+                <div class="logo-item">
+                    <svg width="140" height="40" viewBox="0 0 140 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <text x="10" y="28" font-family="Inter" font-size="20" font-weight="700" fill="#111827">AT&T</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Highlights -->
+    <section class="features">
+        <div class="container">
+            <div class="feature-row">
+                <div class="feature-content">
+                    <div class="feature-tag">Enterprise-reinvention</div>
+                    <h2>Bring intelligence to enterprise knowledge</h2>
+                    <p>Modernize without the rebuild with enterprise-grade professional service & security.</p>
+                    <a href="#" class="feature-link">Explore for enterprise →</a>
+                </div>
+                <div class="feature-visual">
+                    <div class="visual-card">
+                        <h4>Build with partnership</h4>
+                        <p>Direct, white-glove access to our documentation experts. Dedicated migration support and guidance tailored to your setup, and elevated support SLAs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-row reverse">
+                <div class="feature-visual">
+                    <div class="visual-card">
+                        <h4>Compliance and access control</h4>
+                        <p>Compliant with SOC 2, and in the process for ISO/27001 and GDPR compliance to meet your internal and external data requirements. Secure access and provisioning with SAML-based SSO.</p>
+                    </div>
+                </div>
+                <div class="feature-content">
+                    <div class="security-badges">
+                        <div class="badge-item">
+                            <div class="badge-icon">🔒</div>
+                            <span>SOC 2</span>
+                        </div>
+                        <div class="badge-item">
+                            <div class="badge-icon">✓</div>
+                            <span>ISO/27001</span>
+                        </div>
+                        <div class="badge-item">
+                            <div class="badge-icon">🛡️</div>
+                            <span>GDPR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intelligent Assistant / UI Preview -->
+    <section class="ui-preview">
+        <div class="container">
+            <div class="preview-wrapper">
+                <div class="preview-content">
+                    <h2>Intelligent Assistant</h2>
+                    <p class="preview-description">Turn every documentation visit into a guided conversation. Your AI assistant understands context and delivers what users need.</p>
+                    <div class="preview-features">
+                        <div class="preview-feature-item">
+                            <div class="feature-icon">💬</div>
+                            <div>
+                                <h4>Context-aware responses</h4>
+                                <p>Understands your documentation structure and user intent</p>
+                            </div>
+                        </div>
+                        <div class="preview-feature-item">
+                            <div class="feature-icon">⚡</div>
+                            <div>
+                                <h4>Instant answers</h4>
+                                <p>Reduce support tickets with intelligent assistance</p>
+                            </div>
+                        </div>
+                        <div class="preview-feature-item">
+                            <div class="feature-icon">🎯</div>
+                            <div>
+                                <h4>Guided navigation</h4>
+                                <p>Help users find exactly what they're looking for</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="preview-mockup">
+                    <div class="mockup-browser">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="browser-url">docs.example.com</div>
+                        </div>
+                        <div class="browser-content">
+                            <div class="chat-interface">
+                                <div class="chat-message user">
+                                    <div class="message-bubble">How do I integrate the API?</div>
+                                </div>
+                                <div class="chat-message assistant">
+                                    <div class="message-avatar">🤖</div>
+                                    <div class="message-bubble">I can help you integrate our API! Here's a quick start guide...</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enterprise Features Section -->
+    <section class="enterprise-features">
+        <div class="container">
+            <div class="section-header centered">
+                <h2>Enterprise-grade features</h2>
+                <p>Built for teams that need security, scalability, and support</p>
+            </div>
+            <div class="enterprise-grid">
+                <div class="enterprise-card">
+                    <div class="card-icon">🔐</div>
+                    <h3>Security & Compliance</h3>
+                    <p>SOC 2 Type II certified with GDPR and ISO/27001 compliance in progress. SAML SSO, role-based access control, and audit logs.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="card-icon">⚡</div>
+                    <h3>Performance at Scale</h3>
+                    <p>Built to handle millions of requests with 99.9% uptime SLA. CDN-powered delivery and intelligent caching.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Dedicated Support</h3>
+                    <p>Priority support with dedicated success managers. Custom SLAs and white-glove migration assistance.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="card-icon">🔧</div>
+                    <h3>Customization</h3>
+                    <p>Full design control with custom domains, branding, and CSS. Advanced permissions and workflow automation.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Analytics & Insights</h3>
+                    <p>Deep analytics on user behavior, search patterns, and content performance. Custom reporting and data exports.</p>
+                </div>
+                <div class="enterprise-card">
+                    <div class="card-icon">🌐</div>
+                    <h3>Multi-region Hosting</h3>
+                    <p>Deploy across multiple regions for optimal performance. Data residency options to meet compliance requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies / Customer Stories -->
+    <section class="case-studies">
+        <div class="container">
+            <div class="section-header centered">
+                <h2>Unlock knowledge for any industry</h2>
+                <p>From frontier AI companies to consumer brands, leaders across industries scale with Mintlify.</p>
+            </div>
+            <div class="case-study-featured">
+                <div class="case-study-card featured">
+                    <div class="case-study-image">
+                        <svg width="100%" height="400" viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="800" height="400" fill="#F9FAFB"/>
+                            <rect x="50" y="50" width="700" height="300" rx="8" fill="white"/>
+                            <text x="400" y="200" font-family="Inter" font-size="48" font-weight="700" fill="#5865F2" text-anchor="middle">Anthropic</text>
+                        </svg>
+                    </div>
+                    <div class="case-study-content">
+                        <div class="case-study-label">Customer story</div>
+                        <h3>See how Anthropic accelerates AI development with Mintlify</h3>
+                        <div class="case-study-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">2M+</div>
+                                <div class="stat-label">Monthly active developers</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">3+</div>
+                                <div class="stat-label">Products serviced: Claude API, MCP, and Claude Code</div>
+                            </div>
+                        </div>
+                        <a href="#" class="case-study-link">Read story →</a>
+                    </div>
+                </div>
+            </div>
+            <div class="case-studies-grid">
+                <div class="case-study-card">
+                    <div class="case-study-image-small">
+                        <svg width="100%" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="200" fill="#F3F4F6"/>
+                            <text x="200" y="110" font-family="Inter" font-size="32" font-weight="700" fill="#111827" text-anchor="middle">Perplexity</text>
+                        </svg>
+                    </div>
+                    <h4>How Perplexity transformed its documentation into an AI-native developer experience</h4>
+                    <a href="#" class="card-link">Read story →</a>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-image-small">
+                        <svg width="100%" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="200" fill="#F3F4F6"/>
+                            <text x="200" y="110" font-family="Inter" font-size="32" font-weight="700" fill="#111827" text-anchor="middle">X</text>
+                        </svg>
+                    </div>
+                    <h4>How X is using Mintlify to power the developer experience for the global town square</h4>
+                    <a href="#" class="card-link">Read story →</a>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-image-small">
+                        <svg width="100%" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="200" fill="#F3F4F6"/>
+                            <text x="200" y="110" font-family="Inter" font-size="32" font-weight="700" fill="#111827" text-anchor="middle">Kalshi</text>
+                        </svg>
+                    </div>
+                    <h4>How Kalshi helps developers discover what's possible faster and drive broader adoption</h4>
+                    <a href="#" class="card-link">Read story →</a>
+                </div>
+                <div class="case-study-card">
+                    <div class="case-study-image-small">
+                        <svg width="100%" height="200" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="400" height="200" fill="#F3F4F6"/>
+                            <text x="200" y="110" font-family="Inter" font-size="32" font-weight="700" fill="#111827" text-anchor="middle">Replit</text>
+                        </svg>
+                    </div>
+                    <h4>Learn how Replit uses Mintlify to turn documentation into a fast, collaborative workflow</h4>
+                    <a href="#" class="card-link">Read story →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Call-To-Action -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Make documentation your winning advantage</h2>
+                <p>Join the leaders of tomorrow to future proof your documentation today.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-cta-primary">Get started for free</a>
+                    <a href="#" class="btn-cta-secondary">Get a demo</a>
+                </div>
+            </div>
+            <div class="cta-features">
+                <div class="cta-feature">
+                    <div class="cta-feature-icon">💰</div>
+                    <div>
+                        <h4>Pricing on your terms</h4>
+                        <p>Pick the plan that works best for you</p>
+                        <a href="#">Pricing details →</a>
+                    </div>
+                </div>
+                <div class="cta-feature">
+                    <div class="cta-feature-icon">🚀</div>
+                    <div>
+                        <h4>Start building</h4>
+                        <p>Deploy your documentation in minutes</p>
+                        <a href="#">Quickstart →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-column">
+                    <h4>explore</h4>
+                    <ul>
+                        <li><a href="#">Startups</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                        <li><a href="#">Switch</a></li>
+                        <li><a href="#">OSS Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>resources</h4>
+                    <ul>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Feature Requests</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>documentation</h4>
+                    <ul>
+                        <li><a href="#">Getting Started</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Components</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Wall of Love</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Responsible Disclosure</a></li>
+                        <li><a href="#">Terms Of Service</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">DSR/DSAR</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-security">
+                    <div class="security-badge">
+                        <div class="badge-logo">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="18" stroke="#5865F2" stroke-width="2"/>
+                                <path d="M20 12L20 28M14 20L26 20" stroke="#5865F2" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <div class="badge-title">SOC 2</div>
+                            <div class="badge-subtitle">Type II Certified</div>
+                        </div>
+                    </div>
+                    <a href="#" class="status-link">All systems normal</a>
+                </div>
+                <div class="footer-copyright">
+                    © 2026 Mintlify, Inc.
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
