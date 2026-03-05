@@ -27,6 +27,8 @@ This is because the assignment required using only HTML and CSS.
 
 View -> Wedsite by running code to git actuall feel an Frount-End layout of the wedsite 
 
+IMPORTANT Note : pull complete folder as it have related images of website and links of file so there would not be any issue or missing layout property of this wedsite.
+
 These sections will be updated with proper JavaScript functionality in future improvements.
 
 Future Improvements
