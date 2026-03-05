@@ -25,6 +25,8 @@ Note
 In some sections, interactive elements originally built using JavaScript were replaced with static images.
 This is because the assignment required using only HTML and CSS.
 
+View -> Wedsite by running code to git actuall feel an Frount-End layout of the wedsite 
+
 These sections will be updated with proper JavaScript functionality in future improvements.
 
 Future Improvements
