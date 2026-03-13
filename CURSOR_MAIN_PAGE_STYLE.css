@@ -58,11 +58,12 @@ padding-top:21px;
 .link-nav{
     text-decoration:none;
     color:white;
-    background-color: #0f0e0e;
+    /* background-color: #0f0e0e; */
     position: relative;
     bottom:6px;
     padding:0px 5px;
     font-weight:200;
+    font-size:18px;
     
    
 
@@ -85,6 +86,7 @@ padding-top:21px;
     padding:2%;
     position: relative;
     bottom:8px;
+    right:19px;
     
 
 }
@@ -121,30 +123,19 @@ right:5%;
     color: black;
 }
 
-/* .btn-2-header{
-    position: relative;
-    left:5px;
-    bottom:4px;
-    border-radius:15px;
-     padding:5px 11px;
-     border: none;
-} */
+
 
 
 
 .sec_1_inside_div{
-   /* display: grid;
-   justify-content:start; */
-   /* position: relative;
-   top:100; */
-   /* first way you think */
+ 
 
    padding:50px 80px;
    line-height:0.2;
-   font-size:25px;
-   margin-top:9%;
-   font-weight:500;
-color:white
+   font-size:30px;
+   margin-top:7%;
+   font-weight:300;
+   color:white
 
 }
 
@@ -154,11 +145,11 @@ color:white
     border-radius:25px;
     background-color: rgb(255, 255, 255);
     margin-bottom:6%;
-    font-size:17px;
+    font-size:19px;
 }
 
 .sec_1_inside_img{
-    height:680px;
+    /* height:680px; */
     width:100%;
     border-radius:5px;
 
@@ -752,18 +743,20 @@ justify-self: center;
 
 .sec_11_div{
     text-align:center;
-    padding:10%;
+    padding: 10%;
 }
 
 .sec_11_p_cursor{
-    font-size:60px;
-    margin-bottom:15px;
+    font-size:90px;
+    margin-bottom:20px;
+
 }
 
 .sec_11_button{
 
-    padding:15px 25px;
-    border-radius:25px;
+    padding:19px 40px;
+    border-radius:55px;
+    font-size:24px;
     
 
 }
@@ -774,7 +767,7 @@ justify-self: center;
     justify-content: start;
     gap:10%;
     padding:5%;
-     color: azure;
+     color: rgb(43, 203, 203);
      background-color: rgb(27, 25, 25);
      
 
